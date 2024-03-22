@@ -1,0 +1,128 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+.trangchu{
+    font-size: 30px;
+    padding: 5px 400px;
+}
+.laptop{
+    font-size: 30px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.trangchu:hover{
+    transform: scale(1.1);
+    transition: tranform 1.02s linear;
+}
+.laptop:hover{
+    transform: scale(1.1);
+    transition: tranform 1.02s linear;
+}
+
+
+.main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.thongtinsp{
+    width: 650px;
+    height: 300px;
+    border:1px solid #ccc;
+    background-color: #f2f1f1;
+}
+.sanphamtuongtu{
+    display: flex;
+}
+.sp{
+    width: 300px;
+    height: 400px;
+    background-color: #f2f1f1;
+    border: 1px solid #ccc;
+    margin-top:20px ;
+    margin-right: 50px;
+}
+.img{
+    width: 300px;
+}
+.img:hover{
+    transform: scale(1.01);
+    transition: transform 0.2s linear;
+}
+.xem{
+    transform: translateX(110px);
+    color: white;
+    background-color: red;
+    border-radius:10px ;
+    border: #ccc;
+}
+.sanphamchinh{
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 700px;
+    background-color: #f2f1f1;
+}
+.img1{
+    width: 400px;
+    padding-left: 100px;
+}
+
+.mua{
+    background-color: red;
+    color: white;
+    width: 400px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin: 50px 90px;
+    border: none;
+}
+.mua:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s linear;
+}
+.mua:active{
+    background-color: lightcoral;
+}
+.sanphamchinh p{
+    font-size: 25px;
+    padding-left: 30px;
+}
+.thongso{
+    margin: 30px 50px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: lightblue;
+    width: 500px;
+    height: 700px;
+}
+.thongsochitiet{
+    padding-left: 100px;
+}
+.thongso p{
+    font-size: 20px;
+}
+.sao{
+    width: 500px;
+}
+.footer{
+    background-color:#ccc;
+    width: 100%;
+    height: 100px;
+}
+.taitro{
+    font-size: 20px;
+    padding: 20px;
+}
